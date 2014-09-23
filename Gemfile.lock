@@ -17,7 +17,7 @@ GIT
 PATH
   remote: .
   specs:
-    autoevernote (0.1.0)
+    autoevernote (0.1.0.alpha.1)
       activesupport (~> 4.0)
       evernote_oauth
       httparty

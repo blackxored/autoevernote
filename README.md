@@ -21,8 +21,10 @@ And then execute:
 
 Example usage for the executable:
 
-    $ autoevernote log_completed_tasks
+__TODO__: screenshots and descriptions
 
+    $ autoevernote log_completed_tasks
+    $ autoevernote compute_stats
 
 ## Contributing
 

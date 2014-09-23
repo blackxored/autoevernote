@@ -1,0 +1,3024 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/workspaces
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:44 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '182'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '182'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws037.ec2|UmoWp; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws037.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":[{"id":7294758917170,"name":"Never
+        Read Alone"},{"id":7541141945964,"name":"Personal"},{"id":498346170860,"name":"Personal
+        Projects"}]}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:42 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/workspaces/789514846580/tasks?assignee=me&include_archived=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:45 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '11'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '11'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws011.ec2|UmoWq; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws011.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":[]}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:43 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/workspaces/7294758917170/tasks?assignee=me&include_archived=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:48 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '11'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '11'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws009.ec2|UmoWq; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws009.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":[]}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:46 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/workspaces/7541141945964/tasks?assignee=me&include_archived=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:49 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '2708'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '2708'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws041.ec2|UmoWr; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws041.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":[{"id":8336823744667,"name":"Test task"},{"id":8147271031630,"name":"Integrate
+        BitCoin payment processor"},{"id":8118306519142,"name":"Add badges to fontello-rails"},{"id":8248338362310,"name":"Read
+        the \"Secrets of the JavaScript ninja\" book"},{"id":8040754108593,"name":"Read
+        the GTD book"},{"id":8186067335294,"name":"Jump into Cobook for contacts"},{"id":8040754108599,"name":"The
+        Talk"},{"id":8041196568482,"name":"American Crew Molding"},{"id":8041196568483,"name":"Hair
+        Spray?"},{"id":8039642124734,"name":"Integrate skindler.com email deliveries
+        ending in spam"},{"id":8039642124732,"name":"Integrate profile code"},{"id":8039642124724,"name":"Update
+        swagger-ui on server"},{"id":8041196568542,"name":"Update most gems"},{"id":8040754108597,"name":"Move
+        data out of staging server"},{"id":8040754108595,"name":"Get grunt-sed"},{"id":8040754108588,"name":"Try
+        Agora"},{"id":8040754108539,"name":"Enhance Swagger UI"},{"id":8040754108535,"name":"Resuscitate
+        blog"},{"id":8040754108533,"name":"Remove social accounts"},{"id":8040754108534,"name":"Check
+        turbulence project"},{"id":8039642124725,"name":"Shoes"},{"id":8039642124722,"name":"Jean"},{"id":8039642124720,"name":"T-Shirts"},{"id":8039642124718,"name":"Fix
+        Writebar multi-filtering"},{"id":8039642124716,"name":"Fix Writebar focus
+        and scrolling issues"},{"id":8039642124714,"name":"Modify streams views"},{"id":8039642124712,"name":"Add
+        task states"},{"id":8039642124710,"name":"Integrate Diana''s landing page
+        design"},{"id":8039642124708,"name":"Improve design for notification mails"},{"id":8039642124706,"name":"Watch
+        RejectJS conference videos"},{"id":8039642124704,"name":"Re-enable MongoDB
+        auth"},{"id":8039642124702,"name":"Purge account connections"},{"id":8039642124699,"name":"Add
+        backend for task sections"},{"id":8039642124698,"name":"Update vagrant"},{"id":8040754108549,"name":"Check
+        the Drafts app"},{"id":8040754108584,"name":"Add to celebs note"},{"id":8045769322086,"name":"Update
+        to Ruby 2"},{"id":8045769322089,"name":"Upgrade to Rails 4"},{"id":8039428979858,"name":"Add
+        vhost for Yasmany"},{"id":8117307109046,"name":"Follow-up on Mladen''s lawyer
+        friend"},{"id":8039642124727,"name":"Get a haircut"},{"id":8147271031620,"name":"Shave"},{"id":8336825082479,"name":"Shave"},{"id":8040754108590,"name":"Backup
+        Evernote notes to external drive"},{"id":8155686700712,"name":"Shave"},{"id":8147271031626,"name":"Change
+        hostel note to Kelly''s format"},{"id":8202413378179,"name":"Setup VPN on
+        nexus 7"},{"id":8210482847796,"name":"Shave"},{"id":8248338362315,"name":"Buy
+        handkerchiefs"},{"id":8248338362319,"name":"Install http://tvshowsapp.com"},{"id":8252558577890,"name":"Shave"},{"id":8286020040511,"name":"Shave"}]}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:47 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8336823744667
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:50 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '442'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '442'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws044.ec2|UmoWr; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws044.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8336823744667,"created_at":"2013-10-25T06:58:10.280Z","modified_at":"2013-10-25T06:58:27.053Z","name":"Test
+        task","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"upcoming","completed_at":"2013-10-25T06:58:17.435Z","due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:48 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8147271031630
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:51 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '485'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '485'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws054.ec2|UmoWr; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - ip-10-151-109-42
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8147271031630,"created_at":"2013-10-16T02:56:30.817Z","modified_at":"2013-10-16T02:56:36.767Z","name":"Integrate
+        BitCoin payment processor","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"upcoming","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:49 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8118306519142
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:52 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '477'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '477'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws027.ec2|UmoWr; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws027.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8118306519142,"created_at":"2013-10-11T06:01:56.641Z","modified_at":"2013-10-16T02:55:36.337Z","name":"Add
+        badges to fontello-rails","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"upcoming","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:49 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8248338362310
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:53 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '498'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '498'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws026.ec2|UmoWs; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws026.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8248338362310,"created_at":"2013-10-19T21:58:16.708Z","modified_at":"2013-10-19T21:58:42.537Z","name":"Read
+        the \"Secrets of the JavaScript ninja\" book","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"upcoming","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:50 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108593
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:53 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '466'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '466'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws040.ec2|UmoWs; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws040.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108593,"created_at":"2013-10-07T04:13:35.054Z","modified_at":"2013-10-07T04:13:47.053Z","name":"Read
+        the GTD book","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"upcoming","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:51 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8186067335294
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:54 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '441'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '441'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws033.ec2|UmoWs; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws033.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8186067335294,"created_at":"2013-10-16T01:03:34.013Z","modified_at":"2013-10-16T01:05:11.323Z","name":"Jump
+        into Cobook for contacts","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"upcoming","completed_at":null,"due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:52 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108599
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:57 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '441'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '441'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws000.ec2|UmoWt; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws000.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108599,"created_at":"2013-10-07T04:54:59.443Z","modified_at":"2013-10-11T03:57:04.268Z","name":"The
+        Talk","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"upcoming","completed_at":"2013-10-11T03:56:59.777Z","due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:55 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8041196568482
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:58:58 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '468'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '468'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws022.ec2|UmoWt; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws022.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8041196568482,"created_at":"2013-10-07T05:12:29.581Z","modified_at":"2013-10-07T05:13:04.851Z","name":"American
+        Crew Molding","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124678,"name":"Shopping"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:55 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8041196568483
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:01 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '458'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '458'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws006.ec2|UmoWu; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws006.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8041196568483,"created_at":"2013-10-07T05:12:46.401Z","modified_at":"2013-10-07T05:13:04.851Z","name":"Hair
+        Spray?","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124678,"name":"Shopping"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:58 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124734
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:01 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '501'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '501'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws013.ec2|UmoWu; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws013.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124734,"created_at":"2013-10-07T03:58:17.077Z","modified_at":"2013-10-07T03:59:14.561Z","name":"Integrate
+        skindler.com email deliveries ending in spam","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:58:59 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124732
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:04 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '469'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '469'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws017.ec2|UmoWu; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws017.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124732,"created_at":"2013-10-07T03:57:45.229Z","modified_at":"2013-10-07T03:58:56.260Z","name":"Integrate
+        profile code","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:02 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124724
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:05 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '474'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '474'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws022.ec2|UmoWv; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws022.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124724,"created_at":"2013-10-07T03:56:07.926Z","modified_at":"2013-10-07T03:58:56.260Z","name":"Update
+        swagger-ui on server","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:03 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8041196568542
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:06 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '487'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '487'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws022.ec2|UmoWv; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws022.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8041196568542,"created_at":"2013-10-07T12:06:32.185Z","modified_at":"2013-10-07T18:23:16.195Z","name":"Update
+        most gems","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"upcoming","completed_at":"2013-10-07T18:23:15.318Z","due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:04 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108597
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:07 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '581'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '581'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws026.ec2|UmoWv; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws026.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108597,"created_at":"2013-10-07T04:15:40.730Z","modified_at":"2013-10-07T04:16:54.577Z","name":"Move
+        data out of staging server","notes":"evernote:///view/5675974/s53/ab1e1502-62ac-469d-82c4-aeeba5be340d/ab1e1502-62ac-469d-82c4-aeeba5be340d/","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:04 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108595
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:08 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '562'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '562'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws039.ec2|UmoWv; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws039.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108595,"created_at":"2013-10-07T04:14:26.354Z","modified_at":"2013-10-07T04:16:52.661Z","name":"Get
+        grunt-sed","notes":"evernote:///view/5675974/s53/a360e448-a401-40cd-8ba3-93a50fb4151a/a360e448-a401-40cd-8ba3-93a50fb4151a/","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:05 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108588
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:08 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '461'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '461'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws029.ec2|UmoWv; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws029.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108588,"created_at":"2013-10-07T04:10:36.946Z","modified_at":"2013-10-07T04:16:50.670Z","name":"Try
+        Agora","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124686,"name":"Someday/Maybe"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:06 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108539
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:14 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '465'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '465'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws044.ec2|UmoWx; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws044.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108539,"created_at":"2013-10-07T04:02:13.950Z","modified_at":"2013-10-07T04:16:45.748Z","name":"Enhance
+        Swagger UI","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:12 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108535
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:16 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '468'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '468'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws008.ec2|UmoWx; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws008.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108535,"created_at":"2013-10-07T04:01:42.061Z","modified_at":"2013-10-07T05:16:01.462Z","name":"Resuscitate
+        blog","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124686,"name":"Someday/Maybe"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:13 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108533
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:16 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '474'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '474'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws018.ec2|UmoWx; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws018.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108533,"created_at":"2013-10-07T04:00:39.090Z","modified_at":"2013-10-07T04:16:42.522Z","name":"Remove
+        social accounts","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124686,"name":"Someday/Maybe"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:14 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108534
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:17 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '524'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '524'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws042.ec2|UmoWy; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws042.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108534,"created_at":"2013-10-07T04:00:46.938Z","modified_at":"2013-10-07T04:16:42.522Z","name":"Check
+        turbulence project","notes":"Code metrics: https://github.com/chad/turbulence","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124686,"name":"Someday/Maybe"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:15 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124725
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:18 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '452'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '452'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws052.ec2|UmoWy; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws052.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124725,"created_at":"2013-10-07T03:56:08.469Z","modified_at":"2013-10-07T03:59:54.004Z","name":"Shoes","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124678,"name":"Shopping"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:15 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124722
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:21 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '451'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '451'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws031.ec2|UmoWz; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws031.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124722,"created_at":"2013-10-07T03:55:50.823Z","modified_at":"2013-10-07T03:59:54.004Z","name":"Jean","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124678,"name":"Shopping"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:18 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124720
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:22 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '455'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '455'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws008.ec2|UmoWz; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws008.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124720,"created_at":"2013-10-07T03:55:39.719Z","modified_at":"2013-10-07T05:13:17.073Z","name":"T-Shirts","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124678,"name":"Shopping"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:19 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124718
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:22 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '578'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '578'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws033.ec2|UmoWz; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws033.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124718,"created_at":"2013-10-07T03:55:23.928Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Fix
+        Writebar multi-filtering","notes":"evernote:///view/5675974/s53/0acef429-00a5-437f-984e-bc45d5bc3158/0acef429-00a5-437f-984e-bc45d5bc3158/","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:20 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124716
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:23 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '589'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '589'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws055.ec2|UmoWz; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - ip-10-143-151-236
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124716,"created_at":"2013-10-07T03:54:44.959Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Fix
+        Writebar focus and scrolling issues","notes":"evernote:///view/5675974/s53/831350a0-4272-46ec-8a59-4bedc812e462/831350a0-4272-46ec-8a59-4bedc812e462/","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:21 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124714
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:26 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '570'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '570'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws002.ec2|UmoW0; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws002.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124714,"created_at":"2013-10-07T03:53:46.841Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Modify
+        streams views","notes":"evernote:///view/5675974/s53/2cb38832-b0a5-44d5-8a0c-52bef36f229a/2cb38832-b0a5-44d5-8a0c-52bef36f229a/","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:24 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124712
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:27 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '462'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '462'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws031.ec2|UmoW0; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws031.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124712,"created_at":"2013-10-07T03:53:37.186Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Add
+        task states","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:24 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124710
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:28 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '484'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '484'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws054.ec2|UmoW0; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - ip-10-151-109-42
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124710,"created_at":"2013-10-07T03:53:24.724Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Integrate
+        Diana''s landing page design","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:25 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124708
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:28 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '484'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '484'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws051.ec2|UmoW0; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws051.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124708,"created_at":"2013-10-07T03:52:45.006Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Improve
+        design for notification mails","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:26 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124706
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:29 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '478'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '478'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws007.ec2|UmoW1; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws007.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124706,"created_at":"2013-10-07T03:52:25.988Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Watch
+        RejectJS conference videos","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:27 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124704
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:32 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '469'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '469'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws033.ec2|UmoW1; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws033.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124704,"created_at":"2013-10-07T03:51:52.286Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Re-enable
+        MongoDB auth","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:30 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124702
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:33 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '471'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '471'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws005.ec2|UmoW2; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws005.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124702,"created_at":"2013-10-07T03:51:30.384Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Purge
+        account connections","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:31 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124699
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:34 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '476'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '476'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws045.ec2|UmoW2; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws045.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124699,"created_at":"2013-10-07T03:50:51.498Z","modified_at":"2013-10-07T03:57:18.596Z","name":"Add
+        backend for task sections","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:31 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124698
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:37 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '444'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '444'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws008.ec2|UmoW3; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws008.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124698,"created_at":"2013-10-07T03:50:48.243Z","modified_at":"2013-10-07T05:09:02.760Z","name":"Update
+        vagrant","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-07T05:09:03.948Z","due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:34 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108549
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:37 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '469'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '469'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws048.ec2|UmoW3; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws048.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108549,"created_at":"2013-10-07T04:03:47.649Z","modified_at":"2013-10-07T04:09:22.173Z","name":"Check
+        the Drafts app","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"upcoming","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:35 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108584
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:38 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '567'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '567'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws008.ec2|UmoW3; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws008.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108584,"created_at":"2013-10-07T04:08:50.326Z","modified_at":"2013-10-11T04:13:19.129Z","name":"Add
+        to celebs note","notes":"evernote:///view/5675974/s53/182bd743-127e-4bdf-b975-ded45e469647/182bd743-127e-4bdf-b975-ded45e469647/","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:36 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8045769322086
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:39 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '484'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '484'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws042.ec2|UmoW3; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws042.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8045769322086,"created_at":"2013-10-07T12:36:42.956Z","modified_at":"2013-10-07T12:36:59.755Z","name":"Update
+        to Ruby 2","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"later","completed_at":"2013-10-07T12:36:58.766Z","due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:37 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8045769322089
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:40 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '465'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '465'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws038.ec2|UmoW3; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws038.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8045769322089,"created_at":"2013-10-07T12:37:04.088Z","modified_at":"2013-10-07T12:37:09.837Z","name":"Upgrade
+        to Rails 4","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":false,"assignee_status":"later","completed_at":null,"due_on":null,"projects":[{"id":8039642124656,"name":"Skindler"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:37 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039428979858
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:41 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '451'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '451'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws042.ec2|UmoW4; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws042.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039428979858,"created_at":"2013-10-10T12:53:38.060Z","modified_at":"2013-10-11T04:13:08.144Z","name":"Add
+        vhost for Yasmany","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"inbox","completed_at":"2013-10-11T04:13:07.102Z","due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:38 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8117307109046
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:41 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '523'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '523'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws029.ec2|UmoW4; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws029.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8117307109046,"created_at":"2013-10-11T04:11:21.547Z","modified_at":"2013-10-20T12:02:00.567Z","name":"Follow-up
+        on Mladen''s lawyer friend","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-20T12:01:59.625Z","due_on":"2013-10-20","projects":[{"id":8039642124690,"name":"Read/Research/Review"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:39 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8039642124727
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:42 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '480'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '480'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws042.ec2|UmoW4; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws042.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8039642124727,"created_at":"2013-10-07T03:56:21.190Z","modified_at":"2013-10-14T14:06:35.715Z","name":"Get
+        a haircut","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-14T14:06:37.341Z","due_on":null,"projects":[{"id":8039642124674,"name":"Errands"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:40 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8147271031620
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:45 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '472'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '472'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws029.ec2|UmoW5; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws029.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8147271031620,"created_at":"2013-10-14T01:34:49.808Z","modified_at":"2013-10-14T14:06:37.636Z","name":"Shave","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"inbox","completed_at":"2013-10-14T14:06:38.847Z","due_on":null,"projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:43 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8336825082479
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:46 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '459'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '459'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws047.ec2|UmoW5; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws047.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8336825082479,"created_at":"2013-10-25T05:17:28.688Z","modified_at":"2013-10-25T05:17:37.521Z","name":"Shave","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"today","completed_at":null,"due_on":"2013-10-27","projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:43 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8040754108590
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:49 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '493'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '493'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws000.ec2|UmoW6; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws000.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8040754108590,"created_at":"2013-10-07T04:11:20.895Z","modified_at":"2013-10-14T22:12:39.386Z","name":"Backup
+        Evernote notes to external drive","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"today","completed_at":null,"due_on":"2013-10-15","projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:46 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8155686700712
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:50 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '480'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '480'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws024.ec2|UmoW6; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws024.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8155686700712,"created_at":"2013-10-14T14:06:37.404Z","modified_at":"2013-10-17T08:03:07.247Z","name":"Shave","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-17T08:03:06.196Z","due_on":"2013-10-16","projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:47 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8147271031626
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:53 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '445'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '445'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws017.ec2|UmoW7; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws017.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8147271031626,"created_at":"2013-10-16T02:55:12.588Z","modified_at":"2013-10-16T02:55:12.588Z","name":"Change
+        hostel note to Kelly''s format","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"inbox","completed_at":null,"due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:50 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8202413378179
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:53 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '450'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '450'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws005.ec2|UmoW7; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws005.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8202413378179,"created_at":"2013-10-16T20:02:00.784Z","modified_at":"2013-10-17T20:59:16.703Z","name":"Setup
+        VPN on nexus 7","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"inbox","completed_at":"2013-10-17T20:59:15.286Z","due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:51 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8210482847796
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:54 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '480'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '480'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws044.ec2|UmoW7; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws044.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8210482847796,"created_at":"2013-10-17T08:03:07.091Z","modified_at":"2013-10-20T12:02:02.770Z","name":"Shave","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-20T12:02:01.882Z","due_on":"2013-10-19","projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:52 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8248338362315
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:55 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '485'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '485'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws024.ec2|UmoW7; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws024.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8248338362315,"created_at":"2013-10-20T12:32:53.969Z","modified_at":"2013-10-20T12:32:56.682Z","name":"Buy
+        handkerchiefs","notes":"","assignee":{"id":7239846033035,"name":"Adrian Perez"},"completed":true,"assignee_status":"inbox","completed_at":"2013-10-20T12:32:55.979Z","due_on":null,"projects":[{"id":8039642124678,"name":"Shopping"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:52 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8248338362319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:56 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '438'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '438'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws044.ec2|UmoW7; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws044.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8248338362319,"created_at":"2013-10-21T20:00:34.505Z","modified_at":"2013-10-21T20:00:34.505Z","name":"Install
+        http://tvshowsapp.com","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":false,"assignee_status":"inbox","completed_at":null,"due_on":null,"projects":[],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:53 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8252558577890
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:56 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '480'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '480'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws002.ec2|UmoW7; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws002.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8252558577890,"created_at":"2013-10-20T12:02:02.592Z","modified_at":"2013-10-22T16:29:02.831Z","name":"Shave","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-22T16:29:01.773Z","due_on":"2013-10-22","projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:54 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/tasks/8286020040511
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:57 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '480'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '480'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws023.ec2|UmoW8; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws023.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":{"id":8286020040511,"created_at":"2013-10-22T16:29:02.589Z","modified_at":"2013-10-25T05:17:28.858Z","name":"Shave","notes":"","assignee":{"id":7239846033035,"name":"Adrian
+        Perez"},"completed":true,"assignee_status":"today","completed_at":"2013-10-25T05:17:26.721Z","due_on":"2013-10-24","projects":[{"id":8039642124666,"name":"At
+        Home"}],"tags":[],"workspace":{"id":7541141945964,"name":"Personal"},"parent":null,"followers":[{"id":7239846033035,"name":"Adrian
+        Perez"}]}}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:55 GMT
+- request:
+    method: get
+    uri: https://ASANA_TOKEN:@app.asana.com/api/1.0/workspaces/498346170860/tasks?assignee=me&include_archived=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Fri, 25 Oct 2013 06:59:58 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '11'
+      Connection:
+      - keep-alive
+      X-Asana-Content-String-Length:
+      - '11'
+      Set-Cookie:
+      - TooBusyRedirectCount=0; Version=1; Path=/
+      - server=prod-ws004.ec2|UmoW8; path=/
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      X-Server-Name:
+      - prod-ws004.ec2
+      X-Asana-Preferred-Release-Revision:
+      - 20131025_005050_e6081deb3b33856e100154253c944d9f0ca33d38
+      X-Robots-Tag:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+    body:
+      encoding: US-ASCII
+      string: ! '{"data":[]}'
+    http_version:
+  recorded_at: Fri, 25 Oct 2013 06:59:55 GMT
+recorded_with: VCR 2.6.0

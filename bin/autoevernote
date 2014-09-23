@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'autoevernote/cli'
+
+AutoEvernote::CLI.start(ARGV)

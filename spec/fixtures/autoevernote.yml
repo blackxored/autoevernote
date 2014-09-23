@@ -1,0 +1,11 @@
+asana:
+  token: "ASANA_TOKEN"
+evernote:
+  token: "EVERNOTE_TOKEN"
+  default_notebook: "NOTEBOOK_GUID"
+klout:
+  token: "KLOUT_TOKEN"
+twitter:
+  id: "TWITTER_ID"
+  username: "TWITTER_USERNAME"
+  counter_token: "TWITTER_COUNTER_API_KEY"
